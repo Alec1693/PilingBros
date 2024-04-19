@@ -41,9 +41,11 @@ a {
     background-color: #101010;
 }
 .nav-menu {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 5%;
 }
 
 .nav-item {
@@ -88,6 +90,7 @@ a {
     }
 
     .hamburger {
+        padding-right: 5%;
         display: block;
         cursor: pointer;
     }
@@ -110,9 +113,13 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    box-shadow: 10px 5px 5px black;
-    border-radius: 10px;
     margin: 2rem;
 }
 
+.content{
+    width: 65%;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+}
